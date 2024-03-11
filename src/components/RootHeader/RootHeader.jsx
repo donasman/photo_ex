@@ -22,6 +22,7 @@ function RootHeader() {
             setRefresh(() => false);
         }
     }, [refresh])
+    
     return (
         <div css={S.layout}>
             <Link css={S.titleLink} to={"/"}>
